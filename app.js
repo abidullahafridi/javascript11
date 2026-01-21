@@ -18,7 +18,7 @@ function add() {
     li.appendChild(liText);
     
     var editBtn = document.createElement("BUTTON");
-    var editbtnText = document.createTextNode ("EDIT TODO");
+    var editbtnText = document.createTextNode ("EDIT TODO list");
     editBtn.appendChild (editbtnText);
     editBtn.setAttribute ("onclick" , "edittodo(this)");
     li.appendChild (editBtn);
